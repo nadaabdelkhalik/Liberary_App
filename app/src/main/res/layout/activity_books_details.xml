@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".BooksDetails">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+
+    <ImageView
+        android:id="@+id/bookImage"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@mipmap/book_icon"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/favourite"
+            android:layout_gravity="center"
+            android:layout_marginVertical="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:background="@drawable/baseline_favorite_24"
+
+            />
+
+        <TextView
+            android:id="@+id/bookAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_marginVertical="5dp"
+            android:text="BookAuthor "
+            android:textColor="@color/gray"
+
+            />
+
+        <TextView
+            android:id="@+id/bookRate"
+            android:layout_width="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_marginVertical="5dp"
+            android:layout_height="wrap_content"
+
+            android:text="BookRate "
+            android:textColor="@color/gray"
+            />
+        <TextView
+            android:id="@+id/pagesCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="5dp"
+            android:text="Page Counts "
+            android:textColor="@color/gray"
+
+            />
+
+
+        <TextView
+            android:id="@+id/bookCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="5dp"
+            android:text="Book Category "
+            android:textColor="@color/gray" />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@id/bookName"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Book Name "
+         android:layout_marginBottom="5dp"
+        android:textColor="@color/deepPurple"
+        android:textSize="22sp" />
+
+
+
+    <TextView
+        android:id="@+id/bookDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+         android:maxLines="20"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/gray"
+        android:layout_weight="1"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:id="@+id/previewBook"
+
+        android:text="Preview"
+        />
+
+
+</LinearLayout>

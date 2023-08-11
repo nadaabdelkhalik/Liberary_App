@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "657053852287",
+    "project_id": "libarayapp-4eb10",
+    "storage_bucket": "libarayapp-4eb10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657053852287:android:47b89118aee527913dd54a",
+        "android_client_info": {
+          "package_name": "com.example.libarayapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657053852287-71ohus9067ojsqgv84e5n9dgup1q8tul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmvNy1bDki-Nikq5LmqWwWiTHjZyPHwTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657053852287-71ohus9067ojsqgv84e5n9dgup1q8tul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

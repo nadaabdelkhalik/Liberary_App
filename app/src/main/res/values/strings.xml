@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LibarayApp</string>
+    <string name="books_heaven">Books Heaven</string>
+    <string name="your_lost_soul_lies_in_a_book_waiting_for_you">Your lost soul lies in a book, waiting for you</string>
+    <string name="password">password</string>
+    <string name="email_address">Email address</string>
+    <string name="welcome">Welcome</string>
+    <string name="sing_up">Sing UP</string>
+    <string name="user_name">User Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="science_fiction">Science Fiction</string>
+    <string name="fiction">fiction</string>
+    <string name="description">The Enigma of Time is an enthralling science fiction novel that takes readers on a mind-bending journey through time and space. Set in the year 2305, it follows the adventures of Dr. Elizabeth Carter, a brilliant physicist who discovers a groundbreaking formula that allows her to manipulate time. As Dr. Carter delves deeper into her research, she uncovers shocking secrets about the nature of time itself and its potential implications for humanity. She becomes embroiled in a dangerous race against time as shadowy organizations seek to obtain her groundbreaking discovery for their own nefarious purposes. With each leap through time, Dr. Carter encounters fascinating civilizations from different eras and grapples with complex ethical dilemmas . As she navigates love, loss, and betrayal across centuries, she must confront profound questions about destiny, free will, and the true meaning of existence. The Enigma of Time combines gripping action with thought-provoking philosophical themes to create an immersive reading experience. Sarah Thompson weaves together intricate plot twists and vivid descriptions that transport readers across various historical periods while exploring the consequences of tampering with the fabric of reality.</string>
+</resources>

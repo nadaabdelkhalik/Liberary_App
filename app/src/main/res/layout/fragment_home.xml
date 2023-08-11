@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    tools:context=".HomeFragment">
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chip_group"
+        android:layout_width="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_option_1"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="@string/science_fiction"
+
+            android:textColor="@color/deepPurple"
+            />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_option_2"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Arts"
+            android:textColor="@color/deepPurple"
+            />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_option_3"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="History"
+            android:textColor="@color/deepPurple"
+            />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_option_4"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Mystery"
+            android:textColor="@color/deepPurple"
+            />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_option_5"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Romance"
+            android:textColor="@color/deepPurple"
+            />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_option_6"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Children's books"
+            android:textColor="@color/deepPurple"
+            />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_option_7"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="travel"
+            android:textColor="@color/deepPurple"
+            />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_option_8"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Health"
+            android:textColor="@color/deepPurple"
+            />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_option_9"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="cooking"
+            android:textColor="@color/deepPurple"
+            />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_option_10"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Computer Science"
+            android:textColor="@color/deepPurple"
+            />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_option_11"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Biographies"
+            android:textColor="@color/deepPurple"
+            />
+
+
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/genderRecycle"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
